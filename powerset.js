@@ -20,4 +20,13 @@ SAMPLE OUTPUT
 
 function powerset(array) {
     // Write your code here.
+    const output = [];
+    const helper = () => {
+        
+    }
+
+    return output
 }
+
+
+console.log(powerset([1, 2, 3]))
