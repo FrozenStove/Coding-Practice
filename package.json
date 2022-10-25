@@ -4,7 +4,8 @@
   "description": "",
   "main": "01matrix.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "alltest": "jest",
+    "test": "bash ./scripts/run-test.sh"
   },
   "repository": {
     "type": "git",
