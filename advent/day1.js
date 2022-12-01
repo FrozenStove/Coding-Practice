@@ -11,7 +11,7 @@ fs.readFile('/Users/lennysutrisno/Documents/GitHub/Coding-Practice/advent/day1_i
     inputString = data.toString();
     input = inputString.split("\n");
 
-    console.log(input)
+    // console.log(input)
 
     let food = [];
     let sum = 0;
@@ -48,11 +48,17 @@ fs.readFile('/Users/lennysutrisno/Documents/GitHub/Coding-Practice/advent/day1_i
     })
 
     // console.log(elfArray)
-    sumArray.sort()
+    // sumArray.sort(function(a, b){return b - a})
+    sumArray.sort((a,b)=>b-a)
 
+    let sumThree = 0;
+    for(let i = 0; i < 3; i++){
+        sumThree+= sumArray[i]
+    }
+    console.log(sumThree)
 
-    console.log(maxSum)
-    console.log(68923+67023+64098)
+    // console.log(maxSum)
+    // console.log(68923+67023+64098)
 
 })
 
