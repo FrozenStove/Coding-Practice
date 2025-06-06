@@ -5,7 +5,11 @@
   "main": "01matrix.js",
   "scripts": {
     "alltest": "jest",
-    "test": "bash ./scripts/run-test.sh"
+    "test": "bash ./scripts/run-test.sh",
+    "ts": "ts-node",
+    "ts:watch": "ts-node-dev --respawn",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,11 @@
   "homepage": "https://github.com/FrozenStove/Coding-Practice#readme",
   "dependencies": {
     "jest": "^29.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "~22",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
   }
 }
