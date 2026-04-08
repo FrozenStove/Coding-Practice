@@ -1,0 +1,6 @@
+{
+    "code-runner.executorMap": {
+        "typescript": "cd $dir && npx ts-node $fileName",
+        "javascript": "node $fileName"
+    }
+}
