@@ -2,5 +2,13 @@
     "code-runner.executorMap": {
         "typescript": "cd $dir && npx ts-node $fileName",
         "javascript": "node $fileName"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }
